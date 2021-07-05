@@ -110,7 +110,7 @@ include("dbcon.php");
         </div>
         <div class="col-5 colbor">
           <center><h1>Location on Map</h1></center>
-          <img src="location.png" />
+          <img src="location.png" width="100%" style="width:100%"/>
         </div>
       </div>
 
