@@ -53,6 +53,9 @@ include("dbcon.php");
         background-color: #04aa6d;
         color: white;
       }
+	  .smalltext{
+		  font-size:10px
+	  }
     </style>
   </head>
   <body>
@@ -76,7 +79,7 @@ include("dbcon.php");
         <div class="col-5 colbor">
           <center><h1>Data in DB</h1></center>
 
-          <table id="customers">
+          <table id="customers" class="smalltext">
             <tr>
               <td>ID</td>
               <td>Name</td>
@@ -107,7 +110,7 @@ include("dbcon.php");
         </div>
         <div class="col-5 colbor">
           <center><h1>Location on Map</h1></center>
-          <img src="locations.png" />
+          <img src="location.png" />
         </div>
       </div>
 
